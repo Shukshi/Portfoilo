@@ -10,7 +10,7 @@ function Banner() {
                     Hemlo!
                 </div>
                 <div className="text"> 
-                    Yes,that’s me. I’m Ujjawal Garg, a self-taught Product Designer from IIT Roorkee. I am an accidental engineer cum musician meant to be designer. Passion to solve the digital problems and learning alongside is what drives me in the whole design process.
+                    Yes, that’s me. I’m Ujjawal Garg, a self-taught Product Designer from IIT Roorkee. I am an accidental engineer cum musician meant to be designer. Passion to solve the digital problems and learning alongside is what drives me in the whole design process.
                 </div>
             </div> 
             <div className="imageContainer">
@@ -24,7 +24,7 @@ function Banner() {
             </div>
 
             <div className="scrolling"> 
-                Scroll to know more
+                Scroll to know <span className="underline"> <span className="knowmore"> more </span> </span>
             </div>
         </div>
     </div>
