@@ -1,10 +1,10 @@
-.experiencecontainer{
-    height: 30vh;
+.CardContainer{
+    height: auto;
 }
 .testimonialContainer{
-    width: 30%;
+    width: 40%;
     margin: 20px;
-    height: 290px;
+    height: 350px;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
@@ -39,7 +39,6 @@
 .bottomContent{
     align-self: flex-end;
     position: relative;
-    margin-bottom: 70px;
 }
 .title{
     font-family: Poppins;
@@ -47,4 +46,13 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 18px;
+    margin: 10px;
+}
+
+.content{
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 10px;
 }

@@ -57,16 +57,17 @@ function Experiences() {
         </React.Fragment>
       );
   return (
-    <div className="experiences">
+    <div className="experienceContainer">
+      <div className="experienceInnerContainer"> 
         <div className="experienceHeading">
             Experiences
-        </div> 
+        </div>
         <div className="cardContainer"> 
           <div className="card"> 
             {element}
            </div>
-        </div>
-        
+        </div> 
+      </div>
     </div>
   );
 }
