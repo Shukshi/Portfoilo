@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from "react-dom";
 import './experiences.css';
-import TestimonialCard from './testimonial-card';
+import Card from './card';
 function Experiences() {
     const testimonials = [
         {
@@ -44,7 +44,7 @@ function Experiences() {
         <React.Fragment>
           {testimonials.map(testimonial => (
             <div key={testimonial.name}>
-              <TestimonialCard
+              <Card
                 logoUrl={testimonial.logoUrl}
                 date={testimonial.date}
                 title={testimonial.title}

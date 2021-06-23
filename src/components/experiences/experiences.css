@@ -16,10 +16,10 @@
 .cardContainer{
     width: 90%;
     padding: 20px;
+    display: flex;
 }
 
 .card{
-    display: table;
-    column-count: 2;
+    
 }
 

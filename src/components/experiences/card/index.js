@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from "react-dom";
-import './testimonial-card.css';
+import './card.css';
 
-function TestimonialCard(props) {
+function Card(props) {
     const { logoUrl, date, title, content, height, width } = props;
   return (
     <div className='experiencecontainer'>
@@ -32,4 +32,4 @@ function TestimonialCard(props) {
   );
 }
 
-export default TestimonialCard;
+export default Card;
