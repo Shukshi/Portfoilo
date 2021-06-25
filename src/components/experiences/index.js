@@ -62,9 +62,6 @@ function Experiences() {
         <div className="experienceHeading">
             Experiences
         </div>
-        <div> 
-          Hellooo
-        </div>
         <div className="cardContainer"> 
           <div className="card"> 
             {element}
