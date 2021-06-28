@@ -8,7 +8,7 @@ function Footer() {
                 Let's get connected 
             </div>
             <div className = {classNames.textBox}> 
-                I am currently looking for full time opportunities in Product Design and will be graduating in the 2022 batch from IIT Roorkee. If you have something interesting for me feel free to shoot a mail at ujjawal@mt.iitr.ac.in
+                I am currently looking for full time opportunities in Product Design and will be graduating in the 2022 batch from IIT Roorkee. If you have something interesting for me feel free to shoot a mail at <span className={classNames.gmail}> ujjawal@mt.iitr.ac.in <span className={classNames.underline}> </span></span> 
             </div>
             <div className = {classNames.contact}>
                 <img src='images/contact-me/medium.svg' />
@@ -17,7 +17,7 @@ function Footer() {
                 <img src='images/contact-me/linkedin.svg'/>
             </div>
             <div className = {classNames.copyright}>
-                Designed with love by Ujjawal Garg
+                Designed with ❤️ by Ujjawal Garg
             </div>
         </div>
 
