@@ -1,26 +1,26 @@
 import React from 'react';
 import ReactDOM from "react-dom";
-import './card.css';
+import classNames from './card.module.css';
 
 function Card(props) {
     const { logoUrl, date, title, content, height, width } = props;
   return (
-    <div className='experiencecontainer'>
-       <div className='CardContainer'>
-           <div className='testimonialContainer'> 
-                <div className="topContent">
-                    <div className='logo'> 
+    <div className={classNames.experiencecontainer}>
+       <div className={classNames.CardContainer}>
+           <div className={classNames.testimonialContainer}> 
+                <div className={classNames.topContent}>
+                    <div className={classNames.logo}> 
                         <img height={height} width = {width} src={logoUrl} />
                     </div>
-                    <div className="date"> 
+                    <div className={classNames.date}> 
                         {date}
                     </div>
                 </div>
-                <div className="bottomContent">
-                    <div className="title">
+                <div className={classNames.bottomContent}>
+                    <div className={classNames.title}>
                         {title}
                     </div>
-                    <div className="content">
+                    <div className={classNames.content}>
                          {content}
                     </div>
                 </div>

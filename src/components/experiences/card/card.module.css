@@ -2,7 +2,6 @@
     height: auto;
 }
 .testimonialContainer{
-    width: 50%;
     height: 320px;
     border-radius: 4px;
     display: flex;
@@ -38,6 +37,7 @@
 .bottomContent{
     align-self: flex-end;
     position: relative;
+    margin: 10px;
 }
 .title{
     font-family: Poppins;

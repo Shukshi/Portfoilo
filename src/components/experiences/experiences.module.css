@@ -1,0 +1,40 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.innerContainer{
+    width: 90%;
+}
+
+.heading{
+    width: 100vw;
+    margin: 100px 0 100px 0;
+    height: 40px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 1.1666669845581055px;
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    height: auto;
+
+}
+
+.underline{
+    color: #4758BC;
+    padding-bottom: 3px;
+    width: 120px;
+    border-width: 4px;
+    border-bottom-style: solid;
+    
+}

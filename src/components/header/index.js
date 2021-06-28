@@ -1,23 +1,23 @@
 import React from 'react';
-import "./header.css";
+import classNames from "./header.module.css";
 function Header() {
   return (
-    <div className="header"> 
-        <div className="name"> 
+    <div className={classNames.header}> 
+        <div className={classNames.name}> 
           Ujjawal Garg
         </div>
 
-        <div className="options">
-          <div className="work"> 
+        <div className={classNames.options}>
+          <div className={classNames.work}> 
             Work 
           </div>
-          <div className="about"> 
+          <div className={classNames.about}> 
             About
           </div>
-          <div className="resume"> 
+          <div className={classNames.resume}> 
             Resume
           </div>
-          <div className="slider">
+          <div className={classNames.slider}>
             Slider
           </div>
         </div> 

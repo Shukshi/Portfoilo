@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from "react-dom";
-import './hobbies.css';
+import classNames from './hobbies.module.css';
 
 function Hobbies(props) {
   return (
