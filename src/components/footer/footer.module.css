@@ -1,0 +1,36 @@
+.container{
+    width: 100%;
+    background: #F7F8FF;
+    display: flex;
+    justify-content: center;
+}
+
+.innerContainer{
+    width: 90%;
+    padding: 20px;
+}
+
+.heading{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 900;
+    margin: 50px;
+}
+
+.textBox{
+    text-align: center;
+    padding: 0 15vw 6vh 15vw;
+    margin: 20px;
+}
+
+.contact{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 30vw 4vh 30vw;
+    margin: 20px;
+}
+
+.copyright{
+    text-align: center;
+}
