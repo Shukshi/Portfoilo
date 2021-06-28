@@ -14,7 +14,7 @@ function Experiences() {
         },
 
         {
-            logoUrl: 'images/company-logo/procol.png',
+            logoUrl: 'images/company-logo/procol.svg',
             date: 'February 2021- May 2021',
             title: 'UX Design Internship',
             content: 'Working on task flows on the SaaS product and also responsible for the agile revamp of the mobile product based on constant feedback to solve the problems faced by the users.',
@@ -27,12 +27,12 @@ function Experiences() {
             date: 'October 2020- April 2021',
             title: 'Product Design Internship',
             content: 'Designed the Product website to improve conversion rate, redesigned the web dashboard to be used by primary personas, and also designed user-specific themes to commercialize and promote their online stores.',
-            height: '90px',
+            height: '60px',
             width: '150px',
         },
 
         {
-            logoUrl: 'images/company-logo/flyzy.png',
+            logoUrl: 'images/company-logo/flyzy.svg',
             date: 'August 2020- February 2021',
             title: 'Product Design Internship',
             content: 'My responsibilities included working on the mobile product to work on flows of new features and collaborate with the developers to ship them. Also worken on the revamp of the existing website to generate more leads.',
