@@ -1,19 +1,15 @@
 import React from 'react';
 import Header from './components/header';
-import Banner from './components/banner';
+import HomeBanner from './components/home-banner';
 import Experiences from './components/experiences'
 import Hobbies from './components/hobbies'
 import Footer from './components/footer'
-function About() {
+function Home() {
     return (
       <div className="App">
-        <Header />
-        <Banner />
-        <Experiences />
-        <Hobbies />
-        <Footer />
+       <HomeBanner />
       </div>
     );
   }
   
-  export default About;
+  export default Home;

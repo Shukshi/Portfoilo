@@ -1,0 +1,62 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.innerContainer{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.background{
+    background: #D9DEFF;
+    width: 80%;
+    height: 100vh;
+    align-self: flex-end;
+}
+
+.textbox{
+    position: absolute;
+    margin-top: 28vh;
+    margin-left: 10vh;
+}
+
+.textbox1{
+    font-size: 64px;
+    font-weight: 400;
+    padding: 35px 5px 35px 0;
+}
+
+.textbox2{
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 35px 5px 35px 0;
+    width: 100%;
+}
+
+.name{
+    color: #4758BC;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.textbox3{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 35px 5px 35px 0;
+    width: 100%;
+}
+
+
+.image{
+    position: absolute;
+    height: 400px;
+    width: 390px;
+    align-self: flex-end;
+}

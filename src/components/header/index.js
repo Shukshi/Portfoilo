@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 import classNames from "./header.module.css";
 function Header() {
   return (
@@ -8,11 +9,11 @@ function Header() {
         </div>
 
         <div className={classNames.options}>
-          <div className={classNames.work}> 
-            Work 
+          <div > 
+           <Link to="/" className={classNames.work}>Home </Link> 
           </div>
-          <div className={classNames.about}> 
-            About
+          <div > 
+            <Link to="/about" className={classNames.about}>About</Link>
           </div>
           <div className={classNames.resume}> 
             Resume

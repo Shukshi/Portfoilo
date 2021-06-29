@@ -22,6 +22,7 @@
 .cardContainer{
     display: flex;
     justify-content: center;
+    height: auto;
 }
 .card{
     display: grid;
