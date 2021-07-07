@@ -1,0 +1,58 @@
+.container{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
+
+.innerContainer{
+    display: flex;
+}
+.textContainer{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.headingContainer{
+    width: 35vw;
+    margin: 50px 0 10px 0;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 1.1666669845581055px;
+}
+
+.date{
+    font-size: 18px;
+    line-height: 19px;
+    color: #999999;
+}
+
+.content{
+    font-size: 18px;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.image{
+    height: 350px;
+    width: 600px;
+}
+
+.button{
+    width: auto;
+    position: relative;
+    top: 5vw;
+    border-style: solid;
+    border-color:   #4758BC;
+    border-width: 2px;
+}
+
+.buttonContent{
+    width: auto;
+    line-height: 24px;
+    letter-spacing: 0.36000001430511475px;
+}
+
+

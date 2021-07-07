@@ -11,7 +11,7 @@ function About() {
         <Banner />
         <Experiences />
         <Hobbies />
-        <Footer />
+        <Footer text='Let’s get connected  🤙'/>
       </div>
     );
   }
