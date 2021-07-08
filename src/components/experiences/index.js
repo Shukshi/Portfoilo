@@ -6,11 +6,13 @@ function Experiences() {
     const testimonials = [
         {
             logoUrl: 'images/company-logo/pharmeasy.png',
-            date: 'May 2021 - present',
+            date: 'May 2021 - Present',
             title: 'Product Design Internship',
             content: 'Working with the Customer team regarding Product listings and simplifying the existing experience of the mobile product. ',
             height: '90px',
             width: '150px',
+            marginTop: '24px',
+            marginBottom: '40px',
         },
 
         {
@@ -51,6 +53,8 @@ function Experiences() {
                 content={testimonial.content}
                 height = {testimonial.height}
                 width={testimonial.width}
+                marginTop={testimonial.marginTop}
+                marginBottom={testimonial.marginBottom}
               />
             </div>
           ))}

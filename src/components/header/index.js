@@ -3,9 +3,9 @@ import {Link} from "react-router-dom";
 import classNames from "./header.module.css";
 function Header() {
   return (
-    <div className={classNames.header}> 
+    <div className={classNames.container}>
         <div className={classNames.name}> 
-          Ujjawal Garg
+            Ujjawal Garg
         </div>
 
         <div className={classNames.options}>
@@ -22,6 +22,7 @@ function Header() {
             Slider
           </div>
         </div> 
+        
     </div>
   );
 }

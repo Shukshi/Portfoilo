@@ -15,7 +15,7 @@ function HomeBanner() {
                             I’m <span className={classNames.name}>Ujjawal Garg </span>👋 
                         </div>
                         <div className={classNames.textbox3}>
-                            and I simplify digital experience for people
+                            and I simplify digital experiences for people
                         </div>
                     </div>
                     <div classNames={classNames.imageContainer}>

@@ -3,7 +3,7 @@
     overflow: hidden;
     display: flex;
     justify-content: center;
-    margin: 20px 0 20px 0;
+    margin: 40px 0 40px 0;
 }
 
 .innerContainer{
@@ -13,6 +13,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 .headingContainer{
     width: 35vw;
@@ -26,13 +27,16 @@
 .date{
     font-size: 18px;
     line-height: 19px;
-    color: #999999;
+    color: #888888;
 }
 
 .content{
     font-size: 18px;
     width: 80%;
-    margin-top: 10px;
+    margin-top: 18px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: #333333;
 }
 
 .image{
@@ -42,14 +46,22 @@
 
 .button{
     width: auto;
+    box-sizing: border-box;
     position: relative;
-    top: 5vw;
+    top: 40px;
     border-style: solid;
     border-color:   #4758BC;
     border-width: 2px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 4px;
+}
+
+.button:hover{
+    cursor: pointer;
 }
 
 .buttonContent{
+    color: #4758BC;
     width: auto;
     line-height: 24px;
     letter-spacing: 0.36000001430511475px;

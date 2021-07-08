@@ -5,7 +5,7 @@ function Work() {
     const workExp = [
         {
             heading: 'Designing Customer Management Dashboard @ Bikayi',
-            date: 'January 2021-April 2021 • Internship Project ',
+            date: 'January 2021-April 2021  •  Internship Project ',
             content: 'My major project was to design a Customer Management Dashboard to provide some special customized features for its premium plan merchants and to meet some other use cases.',
             imageUrl: 'images/work/bikayi.svg',
             buttonText: 'Read Now',
@@ -13,7 +13,7 @@ function Work() {
 
         {
             heading: 'Coursera Redesign: A UX Case Study',
-            date: 'July 2020-August 2020 • Concept Project',
+            date: 'July 2020-August 2020  •  Concept Project',
             content: 'In this case study, I am going to share insights on my design process and the design decisions I made while redesigning the Coursera mobile app.',
             imageUrl: 'images/work/coursera.svg',
             buttonText: 'Read on Medium',
@@ -21,7 +21,7 @@ function Work() {
 
         {
             heading: 'Introducing Swiggy Share',
-            date: 'October 2020 • Sprint Case Study',
+            date: 'October 2020  •  Sprint Case Study',
             content: 'My major project was to design a Customer Management Dashboard to provide some special customized features for its premium plan merchants and to meet some other use cases',
             imageUrl: 'images/work/swiggy.svg',
             buttonText: 'Read on Medium',
@@ -30,7 +30,7 @@ function Work() {
 
         {
             heading: 'Designing MVP app and website @ Flyzy',
-            date: 'September 2020-February 2021 • Internship Project ',
+            date: 'September 2020-February 2021  •  Internship Project ',
             content: 'My major project was to design a Customer Management Dashboard to provide some special customized features for its premium plan merchants and to meet some other use cases.',
             imageUrl: 'images/work/flyzy.png',
             buttonText: 'View on Behance',
@@ -38,7 +38,7 @@ function Work() {
 
         {
             heading: 'Travella: Trip Planner App-UI/UX Case Study',
-            date: 'February 2020-May 2020 • Concept Project',
+            date: 'February 2020-May 2020  •  Concept Project',
             content: 'My major project was to design a Customer Management Dashboard to provide some special customized features for its premium plan merchants and to meet some other use cases.',
             imageUrl: 'images/work/travella.svg',
             buttonText: 'View on Behance',

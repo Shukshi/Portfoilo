@@ -2,12 +2,11 @@ import React from 'react';
 import Header from './components/header';
 import HomeBanner from './components/home-banner';
 import Work from './components/work'
-import Hobbies from './components/hobbies'
 import Footer from './components/footer'
 function Home() {
     return (
       <div className="App">
-        <Header />
+      <Header />
        <HomeBanner />
        <Work />
        <Footer text='I hope you enjoyed my work! 😄' />

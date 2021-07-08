@@ -3,14 +3,14 @@ import ReactDOM from "react-dom";
 import classNames from './card.module.css';
 
 function Card(props) {
-    const { logoUrl, date, title, content, height, width } = props;
+    const { logoUrl, date, title, content, height, width, marginTop, marginBottom } = props;
   return (
     <div className={classNames.experiencecontainer}>
        <div className={classNames.CardContainer}>
            <div className={classNames.testimonialContainer}> 
                 <div className={classNames.topContent}>
                     <div className={classNames.logo}> 
-                        <img height={height} width = {width} src={logoUrl} />
+                        <img height={height} width = {width} margin-top={marginTop} margin-bottom={marginBottom} src={logoUrl} />
                     </div>
                     <div className={classNames.date}> 
                         {date}
