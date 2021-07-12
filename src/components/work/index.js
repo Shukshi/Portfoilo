@@ -9,6 +9,7 @@ function Work() {
             content: 'My major project was to design a Customer Management Dashboard to provide some special customized features for its premium plan merchants and to meet some other use cases.',
             imageUrl: 'images/work/bikayi.svg',
             buttonText: 'Read Now',
+            buttonLink : 'https://github.com/Shukshi',
         },
 
         {
@@ -17,6 +18,7 @@ function Work() {
             content: 'In this case study, I am going to share insights on my design process and the design decisions I made while redesigning the Coursera mobile app.',
             imageUrl: 'images/work/coursera.svg',
             buttonText: 'Read on Medium',
+            buttonLink : 'https://uxplanet.org/coursera-redesign-a-ux-case-study-bcb2dc6a9644',
         },
 
         {
@@ -25,6 +27,7 @@ function Work() {
             content: 'My major project was to design a Customer Management Dashboard to provide some special customized features for its premium plan merchants and to meet some other use cases',
             imageUrl: 'images/work/swiggy.svg',
             buttonText: 'Read on Medium',
+            buttonLink : 'https://bootcamp.uxdesign.cc/introducing-swiggy-share-b7b8bb23f30b',
         },
 
 
@@ -34,6 +37,7 @@ function Work() {
             content: 'My major project was to design a Customer Management Dashboard to provide some special customized features for its premium plan merchants and to meet some other use cases.',
             imageUrl: 'images/work/flyzy.png',
             buttonText: 'View on Behance',
+            buttonLink : 'https://www.behance.net/gallery/118536857/Flyzy-Mobile-App-and-Website-Design',
         },
 
         {
@@ -42,20 +46,21 @@ function Work() {
             content: 'My major project was to design a Customer Management Dashboard to provide some special customized features for its premium plan merchants and to meet some other use cases.',
             imageUrl: 'images/work/travella.svg',
             buttonText: 'View on Behance',
+            buttonLink : 'https://www.behance.net/gallery/97407231/Travella-Trip-Planner-App-UIUX-Case-Study',
         },
     ];
     const element = (
        <React.Fragment>
           {workExp.map(work => (
-            <div key={work.name}>
               <Card
+                key={work.name}
                 heading={work.heading}
                 date={work.date}
                 content={work.content}
                 imageUrl = {work.imageUrl}
                 buttonText = {work.buttonText}
+                buttonLink = {work.buttonLink}
               />
-            </div>
           ))}
         </React.Fragment> 
       );

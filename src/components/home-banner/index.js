@@ -25,11 +25,11 @@ function HomeBanner() {
                             <img className={classNames.image} src="images/home-ujjawal.png" />
                         </div>
                     </div>
+                    <div className={classNames.scrolling}> 
+                        Scroll to know <span className={classNames.underline}> <span className={classNames.knowmore}> more </span> </span>
+                    </div>
                 </div>
-                {/* <div className={classNames.scrolling}> 
-                    Scroll to know <span className={classNames.underline}> <span className={classNames.knowmore}> more </span> </span>
-                </div>
-                 */}
+                
             </div>
             
             <div className={classNames.background}> </div>

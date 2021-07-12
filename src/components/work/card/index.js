@@ -2,7 +2,7 @@ import React from 'react';
 import classNames from './card.module.css';
 
 function Card(props) {
-    const { heading,date, content, imageUrl, buttonText, link} = props;
+    const { heading,date, content, imageUrl, buttonText, buttonLink} = props;
   return (
     <div className={classNames.container}>
         <div className={classNames.innerContainer}>
@@ -17,9 +17,9 @@ function Card(props) {
                     {content}
                 </div>
                 <div className={classNames.button}>
-                    <div className={classNames.buttonContent}>
+                    <a href={buttonLink} className={classNames.buttonContent} target= "_blank">
                         {buttonText}
-                    </div>
+                    </a>
                 </div>
             </div>
             <div className={classNames.innerContainer}>

@@ -20,7 +20,7 @@ function Experiences() {
             date: 'February 2021- May 2021',
             title: 'UX Design Internship',
             content: 'Working on task flows on the SaaS product and also responsible for the agile revamp of the mobile product based on constant feedback to solve the problems faced by the users.',
-            height: '150px',
+            height: '90px',
             width: '150px',
         },
 
@@ -45,8 +45,8 @@ function Experiences() {
     const element = (
        <React.Fragment>
           {testimonials.map(testimonial => (
-            <div key={testimonial.name}>
               <Card
+                key={testimonial.name}
                 logoUrl={testimonial.logoUrl}
                 date={testimonial.date}
                 title={testimonial.title}
@@ -56,7 +56,6 @@ function Experiences() {
                 marginTop={testimonial.marginTop}
                 marginBottom={testimonial.marginBottom}
               />
-            </div>
           ))}
         </React.Fragment> 
       );

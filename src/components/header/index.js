@@ -13,7 +13,7 @@ function Header() {
            <Link to="/" className={classNames.work}>Home </Link> 
           </div>
           <div > 
-            <Link to="/about" className={classNames.about}>About</Link>
+            <Link to="/about" className={classNames.about} >About</Link>
           </div>
           <div className={classNames.resume}> 
             Resume
