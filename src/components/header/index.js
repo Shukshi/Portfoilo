@@ -18,9 +18,10 @@ function Header() {
           <div className={classNames.resume}> 
             Resume
           </div>
-          <div className={classNames.slider}>
-            Slider
-          </div>
+          <label className={classNames.switch}>
+            <input type="checkbox" />
+            <span className={classNames.slider}></span>
+          </label>
         </div> 
         
     </div>
